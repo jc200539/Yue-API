@@ -37,7 +37,7 @@ Yue-API-/
 欢迎提交Issue和Pull Request来帮助改进项目。
 
 ### 许可证
-本项目采用开源许可证，详情请查看LICENSE文件。
+本项目许可证待定。
 
 ---
 
@@ -74,4 +74,4 @@ Yue-API-/
 Issues and Pull Requests are welcome to help improve the project.
 
 ### License
-This project is open source. Please see the LICENSE file for details.
+License to be determined.
