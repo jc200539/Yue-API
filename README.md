@@ -4,6 +4,7 @@
 
 ---
 
+<a id="中文"></a>
 ## 中文
 
 ### 简介
@@ -41,6 +42,7 @@ Yue-API-/
 
 ---
 
+<a id="english"></a>
 ## English
 
 ### Introduction
