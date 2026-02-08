@@ -1,0 +1,29 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api/interfaceInvoke
+spring:
+  application:
+    name: yueapi-interfaceInvoke
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/api_platform
+    username: ${your-name}
+    password: ${your-password}
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8880
+        port: 8719
+      filter:
+        url-patterns: /**
+      web-context-unify: false
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        username: nacos
+        password: nacos
+feign:
+  sentinel:
+    enabled: true
